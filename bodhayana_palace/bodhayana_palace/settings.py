@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    'django.contrib.sites',
 
     #custom apps
     'main',
+    
+
 ]
 
 MIDDLEWARE = [
@@ -148,3 +150,4 @@ JAZZMIN_SETTINGS= {
     'site_logo': "/assets/Logo/B_Logo.png",
     'copyright': "bodhayanabookplace.com",
 }
+
